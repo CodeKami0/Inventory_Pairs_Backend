@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from datetime import datetime, timedelta
 
 app = Flask(__name__)
-CORS(app)  # Allow frontend to communicate with backend
+CORS(app, origins=["https://zenith-stock-suite.vercel.app"]) # Allow frontend to communicate with backend
 
 # Load environment variables
 load_dotenv()
