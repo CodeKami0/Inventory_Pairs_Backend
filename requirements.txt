@@ -3,3 +3,4 @@ flask-cors
 bcrypt
 python-dotenv
 flask-jwt-extended
+gunicorn
